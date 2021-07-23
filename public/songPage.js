@@ -8,6 +8,8 @@ const viewSongs = () => {
         let there = false;
         console.log(data);
         for (let key in data) {
+            console.log(data[key].username, user.value)
+            console.log(data[key].password, pass.value)
            if (data[key].username === user.value && data[key].password === pass.value) {
                 console.log("match found");
                 there = true;
