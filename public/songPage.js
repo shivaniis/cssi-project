@@ -21,7 +21,7 @@ const viewSongs = () => {
         }
         if (!there) {
             const songs = document.querySelector("#songs")
-            songs.innerHTML = "<<h2 class='subtitle'>Your Username or Password is incorrect, please try again. </h2>"
+            songs.innerHTML = "<h2 class='subtitle'>Your Username or Password is incorrect, please try again. </h2>"
         }
     })
 }
